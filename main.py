@@ -11,7 +11,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import uvicorn
 
-MQTT_HOST = os.getenv("MQTT_HOST", "192.168.10.51")
+MQTT_HOST = os.getenv("MQTT_HOST", "192.168.1.10")
 MQTT_PORT = int(os.getenv("MQTT_PORT", "1883"))
 MQTT_USERNAME = os.getenv("MQTT_USERNAME", "root")
 MQTT_PASSWORD = os.getenv("MQTT_PASSWORD", "root")
