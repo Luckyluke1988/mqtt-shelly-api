@@ -12,6 +12,7 @@ from pydantic import BaseModel
 import uvicorn
 
 
+
 MQTT_HOST = os.getenv("MQTT_HOST", "192.168.10.51")
 MQTT_PORT = int(os.getenv("MQTT_PORT", "1883"))
 MQTT_USERNAME = os.getenv("MQTT_USERNAME", "root")
