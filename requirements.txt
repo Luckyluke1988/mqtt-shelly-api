@@ -2,9 +2,12 @@ fastapi==0.115.0
 uvicorn[standard]==0.30.6
 
 requests==2.32.3
-pydantic==2.9.2
+aiohttp==3.10.5
 
+pydantic==2.9.2
 python-dotenv==1.0.1
 
-# optional but useful
-aiohttp==3.10.5
+paho-mqtt==1.6.1
+
+sounddevice==0.4.7
+numpy==2.1.1
